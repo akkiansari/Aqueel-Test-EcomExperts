@@ -1598,3 +1598,7 @@ a.product__text {
     border: none;
   }
 }
+.product-form__input input[type=radio]+label {background-size:cover}
+.product-form__input input[type=radio].disabled+label{border-color: inherit !important;color: inherit !important;text-decoration: none !important; 
+                                                      width:45px !important; height:45px !important; background-size:contain !important;}
+.product-form__input input[type=radio].disabled:checked+label{color: #fff !important;}

@@ -680,6 +680,27 @@
       ]
     }
   </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+    const sizeDropdown = document.getElementById("Size"); // Replace with the actual ID of your size dropdown element.
+    const selectedSize = localStorage.getItem("selectedSize");
+
+    if (selectedSize && selectedSize !== "Unselected") {
+      sizeDropdown.value = selectedSize;
+    }
+  });
+  </script>
+                          <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const sizeDropdown = document.getElementById("Size"); // Replace with the actual ID of your size dropdown element.
+
+    sizeDropdown.addEventListener("change", function () {
+      const selectedSize = sizeDropdown.value;
+      localStorage.setItem("selectedSize", selectedSize);
+    });
+  });
+</script>
+
 </section>
 
 {% schema %}

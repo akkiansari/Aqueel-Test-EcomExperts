@@ -20,10 +20,16 @@
           "settings": {
           }
         },
-        "variant_picker": {
+        "9f27232c-1ef1-4e0a-ae50-5294a1f1afad": {
           "type": "variant_picker",
           "settings": {
             "picker_type": "button"
+          }
+        },
+        "d7654084-2dd9-4ef7-91f0-cf84d0cb29f0": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<select id=\"size\">\n  <option value=0 selected>Unselected<\/option>\n  <option value=\"small\">Small<\/option>\n  <option value=\"medium\">Medium<\/option>\n  <option value=\"large\">Large<\/option>\n<\/select>"
           }
         },
         "quantity_selector": {
@@ -54,7 +60,8 @@
         "vendor",
         "title",
         "price",
-        "variant_picker",
+        "9f27232c-1ef1-4e0a-ae50-5294a1f1afad",
+        "d7654084-2dd9-4ef7-91f0-cf84d0cb29f0",
         "quantity_selector",
         "buy_buttons",
         "description",
