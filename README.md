@@ -87,10 +87,10 @@
 <pre><code class="has-line-data" data-line-start="90" data-line-end="92" class="language-sh">created a metaField of Integer and made seo disabled 
 </code></pre>
 <ol start="8">
-<li class="has-line-data" data-line-start="92" data-line-end="94">When the “Leather Bag” -with variant options “Black” &amp; “Medium ” is added to the cart. The “Soft Winter Jacket” product will also be automatically added to the cart for an additional price of 0.01$</li>
+<li class="has-line-data" data-line-start="92" data-line-end="94">When the “Leather Bag” -with variant options “Black” &amp;  is added to the cart. The “Soft Winter Jacket” product will also be automatically added to the cart for an additional price of 0.01$</li>
 </ol>
 <p class="has-line-data" data-line-start="94" data-line-end="95">Approach to be Taken</p>
-<pre><code class="has-line-data" data-line-start="96" data-line-end="99" class="language-sh">Create a discount of Buy x get Y <span class="hljs-built_in">where</span> you can add Automatic Discount <span class="hljs-keyword">if</span> user selects X product automatically Y product will be added to inventory and vice versa
+<pre><code class="has-line-data" data-line-start="96" data-line-end="99" class="language-sh"> Used app CartBot for adding free item to cart and vise versa <span class="hljs-built_in">where</span> you can add Automatic Discount <span class="hljs-keyword">if</span> user selects X product automatically Y product will be added to inventory and vice versa
 
 </code></pre>
 <p class="has-line-data" data-line-start="99" data-line-end="100">We can use Apps for Discount but it will <strong>Reduce the Speed of our App</strong>.</p>
